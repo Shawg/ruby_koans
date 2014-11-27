@@ -15,6 +15,10 @@ class AboutAsserts < Neo::Koan
     #--
     end
     #++
+    
+    # If you're having some difficulty understanding this
+    # you can go to http://goo.gl/b0zUmj to learn more 
+    # about assertions!
   end
 
   # Enlightenment may be more easily achieved with appropriate
