@@ -1,5 +1,7 @@
 require File.expand_path(File.dirname(__FILE__) + '/neo')
 
+# You can learn more about nil at http://goo.gl/7PwyHt
+
 class AboutNil < Neo::Koan
   def test_nil_is_an_object
     assert_equal __(true), nil.is_a?(Object), "Unlike NULL in other languages"
