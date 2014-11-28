@@ -30,4 +30,6 @@ class AboutTrueAndFalse < Neo::Koan
     assert_equal __(:true_stuff), truth_value("")
   end
 
+  # If you're having some trouble understanding this
+  # go to http://goo.gl/6MfLIx for some help
 end
