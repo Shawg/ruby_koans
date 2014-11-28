@@ -13,6 +13,7 @@ assert foo == bar
 this will tell us if foo and bar are equal. But we can do this in a better way!
 
 ```ruby
+assert_equals foo, bar
 ```
 
 This also tells us if foo and bar are equal, but using assert_equals makes the code a little bit easier for a human to read.
