@@ -1,5 +1,8 @@
 require File.expand_path(File.dirname(__FILE__) + '/neo')
 
+# If you're having some trouble understanding this
+# go to goo.gl/JlXe5x for some help
+
 class AboutHashes < Neo::Koan
   def test_creating_hashes
     empty_hash = Hash.new
